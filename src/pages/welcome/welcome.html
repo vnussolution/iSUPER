@@ -1,0 +1,15 @@
+<ion-content scroll="false">
+  <div class="splash-bg"></div>
+  <div class="splash-info">
+    <div class="splash-logo"></div>
+    <div class="splash-intro">
+      {{ 'WELCOME_INTRO' | translate }} to VNUS-Solution
+    </div>
+  </div>
+  <div padding>
+    <button ion-button block (click)="signup()">{{ 'SIGNUP' | translate }}</button>
+    <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button>
+    <button ion-button full (click)="showPlatform()">Alexa, tell me a joke</button>
+  </div>
+
+</ion-content>
