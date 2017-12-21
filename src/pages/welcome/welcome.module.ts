@@ -14,6 +14,9 @@ import { WelcomePage } from './welcome';
   ],
   exports: [
     WelcomePage
+
   ]
 })
 export class WelcomePageModule { }
+
+
